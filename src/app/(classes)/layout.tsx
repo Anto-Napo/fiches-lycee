@@ -1,0 +1,43 @@
+"use client"
+import styles from "@/styles/modules/header.module.css"
+import React from "react"
+import { secLinks, premLinks, termLinks } from "@/app/_lib/links";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+export default function ClassesLayout({
+  children
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  let useLink;
+  const pathname = usePathname();
+  if (pathname.startsWith("/seconde")) {
+    useLink = secLinks;
+  } else if (pathname.startsWith("/premiere")) {
+    useLink = premLinks;
+  } else if (pathname.startsWith("/term")) {
+    useLink = termLinks;
+  } else {
+    useLink = [{name: 'Error', href: '/not-found'}];
+  }
+  return (
+    <>
+      <header className={styles.header}>
+        <section className={styles.logocont}>
+          <img className={styles.logo} alt="logo" src="/logo.png" />
+        </section>
+        <nav className={styles.nav}>
+          {useLink.map((link, key) => {
+            return (
+              <Link className={pathname.includes(link.href) ? styles.activelink : styles.link} key={key} href={link.href}>{link.name}</Link>
+            )
+          })}
+        </nav>
+      </header>
+      <main>
+        {children}
+      </main>
+    </>
+  )
+}

@@ -1,0 +1,31 @@
+export const secLinks = [{name: "Français", href: "/seconde/fr"},
+                         {name: "Maths", href: "/seconde/maths"},
+                         {name: "Histoire-Géo", href: "/seconde/hg"},
+                         {name: "EMC", href: "/seconde/emc"},
+                         {name: "Anglais", href: "/seconde/anglais"},
+                         {name: "Allemand", href: "/seconde/allemand"},
+                         {name: "Physique-Chimie", href: "/seconde/pc"},
+                         {name: "SVT", href: "/seconde/svt"},
+                         {name: "SES", href: "/seconde/snt"},
+                         {name: "EPS", href: "/seconde/eps"}];
+
+export const premLinks = [{name: "Français", href: "/premiere/fr"},
+                          {name: "NSI", href: "/premiere/nsi"},
+                          {name: "Maths", href: "/premiere/maths"},
+                          {name: "Physique-Chimie", href: "/premiere/pc"},
+                          {name: "Histoire-Géo", href: "/premiere/hg"},
+                          {name: "EMC", href: "/premiere/emc"},
+                          {name: "Anglais", href: "/premiere/anglais"},
+                          {name: "Allemand", href: "/premiere/allemand"},
+                          {name: "ES", href: "/premiere/es"},
+                          {name: "EPS", href: "/premiere/eps"}]
+
+export const termLinks = [{name: "Philosophie", href: "/terminale/philo"},
+                          {name: "NSI", href: "/terminale/nsi"},
+                          {name: "Maths", href: "/terminale/maths"},
+                          {name: "Histoire-Géo", href: "/terminale/hg"},
+                          {name: "EMC", href: "/terminale/emc"},
+                          {name: "Anglais", href: "/terminale/anglais"},
+                          {name: "Allemand", href: "/terminale/allemand"},
+                          {name: "ES", href: "/terminale/es"},
+                          {name: "EPS", href: "/terminale/eps"}]
