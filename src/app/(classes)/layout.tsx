@@ -3,7 +3,7 @@ import styles from "@/styles/modules/header.module.css"
 import React from "react"
 import { secLinks, premLinks, termLinks } from "@/app/_lib/links";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 export default function ClassesLayout({
   children
@@ -12,6 +12,7 @@ export default function ClassesLayout({
 }>) {
   let useLink;
   const pathname = usePathname();
+  const router = useRouter();
   if (pathname.startsWith("/seconde")) {
     useLink = secLinks;
   } else if (pathname.startsWith("/premiere")) {
@@ -21,11 +22,17 @@ export default function ClassesLayout({
   } else {
     useLink = [{name: 'Error', href: '/not-found'}];
   }
+
+  function handleClick() {
+    localStorage.setItem("defaultClass", '');
+    router.push("/");
+  }
+
   return (
     <>
       <header className={styles.header}>
         <section className={styles.logocont}>
-          <img className={styles.logo} alt="logo" src="/logo.png" />
+          <img tabIndex={0} onClick={() => handleClick()} className={styles.logo} alt="logo" src="/logo.png" />
         </section>
         <nav className={styles.nav}>
           {useLink.map((link, key) => {

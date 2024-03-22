@@ -1,5 +1,5 @@
 "use client"
-import styles from "@/styles/modules/page.module.css";
+import styles from "@/styles/modules/home.module.css";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
@@ -21,10 +21,10 @@ export default function Home() {
   }
 
   return (
-    <nav>
-      <a onClick={() => handleClick("/seconde")}>Seconde</a>
-      <a onClick={() => handleClick("/premiere")}>Première</a>
-      <a onClick={() => handleClick("/terminale")}>Terminale</a>
+    <nav className={styles.nav}>
+      <a tabIndex={0} className={styles.link} onClick={() => handleClick("/seconde")}>Seconde</a>
+      <a tabIndex={0} className={styles.link} onClick={() => handleClick("/premiere")}>Première</a>
+      <a tabIndex={0} className={styles.link} onClick={() => handleClick("/terminale")}>Terminale</a>
     </nav>
   );
 }
