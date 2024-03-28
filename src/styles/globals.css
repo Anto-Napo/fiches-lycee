@@ -2,3 +2,35 @@
   font-family: Arial, Helvetica, sans-serif;
   /*? Pas de margin et de padding pour que faire des fiches soit plus facile. */
 }
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.vecteur
+{
+  position: relative;
+  display:inline-block;
+}
+.vecteur:after
+{
+  position: absolute;
+  display:block;
+  content:'→';
+  top:-0.7em;
+  left:0.5em;
+}
+
+a {
+  display: block;
+}

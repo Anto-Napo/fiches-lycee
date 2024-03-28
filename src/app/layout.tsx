@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
+import "@/styles/perso.css"
 
 export const metadata: Metadata = {
   title: "Fiches lycée",
