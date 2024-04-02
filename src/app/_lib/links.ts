@@ -6,7 +6,7 @@ export const secLinks = [{name: "Français", href: "/seconde/fr"},
                          {name: "Allemand", href: "/seconde/allemand"},
                          {name: "Physique-Chimie", href: "/seconde/pc"},
                          {name: "SVT", href: "/seconde/svt"},
-                         {name: "SES", href: "/seconde/snt"},
+                         {name: "SES", href: "/seconde/ses"},
                          {name: "EPS", href: "/seconde/eps"}];
 
 export const premLinks = [{name: "Français", href: "/premiere/fr"},
