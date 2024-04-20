@@ -21,9 +21,9 @@ export default function PresPage() { //? Template, copier le code en laissant to
       </ul>
       <p>Un {"{nombre}"}ain pour la plupart sauf deux (<b>distique</b>), trois (<b>tercet</b>) et cinq (<b>quintil</b>).</p>
 
-      <h3>Mètre d'un vers</h3>
-      <p>La longueur d'un vers, on compte le nombre de syllabes.</p>
-      <p>Le <i>e</i> est muet à la fin d'un vers ou quand il est suivi d'une autre voyelle.</p>
+      <h3>Mètre d&apos;un vers</h3>
+      <p>La longueur d&apos;un vers, on compte le nombre de syllabes.</p>
+      <p>Le <i>e</i> est muet à la fin d&apos;un vers ou quand il est suivi d&apos;une autre voyelle.</p>
       <p>Un vers de ...</p>
       <ul>
         <li>12 syllabes: <b>Alexandrin</b></li>
@@ -33,9 +33,9 @@ export default function PresPage() { //? Template, copier le code en laissant to
 
       <p><b>Remarque sur la prononciation de deux voyelles qui se suivent</b></p>
       <p>Quand elles se prononcent en <b>une syllabe</b>, on appelle cela une <b>synérèse</b>.</p>
-      <p>Ex: L'arc meur<b>trier</b>.</p>
+      <p>Ex: L&apos;arc meur<b>trier</b>.</p>
       <p>Quand elles se prononcent en <b>deux syllabe</b>, on appelle cela une <b>diérèse</b>.</p>
-      <p>Ex: L'air supér<b>i/eur</b>.</p>
+      <p>Ex: L&apos;air supér<b>i/eur</b>.</p>
 
       <h2>Sonorités et rythme</h2>
       <h3>Rimes</h3>
@@ -60,11 +60,11 @@ export default function PresPage() { //? Template, copier le code en laissant to
 
       <h3>Rythme</h3>
       <h4>Enjambement</h4>
-      <p>Il se produit lorsqu'une phrase se poursuit sur <b>deux vers sans pause</b>.</p>
-      <p>L'élément mis en valeur à la <b>fin</b> du <b>1<sup>er</sup> vers</b> est le <b>contre-rejet</b>.</p>
-      <p>L'élément mis en valeur au <b>début</b> du <b>2<sup>ème</sup> vers</b> est le <b>rejet</b>.</p>
+      <p>Il se produit lorsqu&apos;une phrase se poursuit sur <b>deux vers sans pause</b>.</p>
+      <p>L&apos;élément mis en valeur à la <b>fin</b> du <b>1<sup>er</sup> vers</b> est le <b>contre-rejet</b>.</p>
+      <p>L&apos;élément mis en valeur au <b>début</b> du <b>2<sup>ème</sup> vers</b> est le <b>rejet</b>.</p>
       <h4>Césure</h4>
-      <p>C'est la <b>coupe</b> principale qui <b>partage le vers</b> en <b>deux parties</b>.</p>
+      <p>C&apos;est la <b>coupe</b> principale qui <b>partage le vers</b> en <b>deux parties</b>.</p>
       <p>Quand elles sont <b>égales</b>, elles sont appelées <b>hémistiches</b>.</p>
       
       <Link href={`/${pathname[1]}/${pathname[2]}`}>Retour</Link>
