@@ -4,7 +4,9 @@ import { usePathname } from "next/navigation"
 
 export default function SubjectPage() {
   const links = [{name: "Présentation", href:"/pres"}, //? Ajoutes des noms et le lien (le même nom que le dossier créé)
-                 {name: "", href: ""},]
+                 {name: "Développement et inégalités", href: "/devetina"},
+                 {name: "Méthodologie analyse de document", href: "/analdoc"},
+                 {name: "TITRE INCONNU", href: "/amerique"},]
 
   const pathname = usePathname();
   const currentPath = pathname.split('/');
