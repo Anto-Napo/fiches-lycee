@@ -48,24 +48,24 @@ export default function PresPage() { //? Template, copier le code en laissant to
       <ul>
         <li>son <b>bien-fondé</b> (partie I)</li>
         <li>ses <b>limites</b> (partie II)</li>
-        <li><i>comment dépasser l'opposition (partie III)</i></li>
+        <li><i>comment dépasser l&apos;opposition (partie III)</i></li>
       </ul>
       <h4>Analytique</h4>
       <p>Il est ammené par une <b>question ouverte</b>.</p>
-      <p>On développe les <b>différents aspects</b> d'une thèse: chaque partie est uene <b>réponse possible</b> allant du plus simple au complexe.</p>
+      <p>On développe les <b>différents aspects</b> d&apos;une thèse: chaque partie est uene <b>réponse possible</b> allant du plus simple au complexe.</p>
       
       <h3>Etape 4: rédiger le plan détaillé avec les arguments et les examples</h3>
       <p><b>Deux ou trois sous-parties</b> par partie.</p>
       <p>Trouver <b>un ou deux examples</b> par arguments.</p>
-      <p>L'exemple doit être <b>précis</b> et <b>commenté</b>. Il peut être pris:</p>
+      <p>L&apos;exemple doit être <b>précis</b> et <b>commenté</b>. Il peut être pris:</p>
       <ul>
-        <li>dans l'oeuvre étudiée pendant l'année: remarque sur l'<b>ensemble de l'oeuvre</b> (structure, évolution d'un personnage, thème récurrent, etc...), <b>passage précis</b>: situé (chapitre / acte / titre) et cité;</li>
-        <li>dans le <b>parcours</b> en lien avec cette oeuvre: donnez son <b>auteur</b>, son <b>titre</b>, et <b>citer</b> ou <b>résumer</b> le texte. On peut faire référence à un aspect précis d'un <b>mouvement littéraire</b>.</li>
+        <li>dans l&apos;oeuvre étudiée pendant l&apos;année: remarque sur l&apos;<b>ensemble de l&apos;oeuvre</b> (structure, évolution d&apos;un personnage, thème récurrent, etc...), <b>passage précis</b>: situé (chapitre / acte / titre) et cité;</li>
+        <li>dans le <b>parcours</b> en lien avec cette oeuvre: donnez son <b>auteur</b>, son <b>titre</b>, et <b>citer</b> ou <b>résumer</b> le texte. On peut faire référence à un aspect précis d&apos;un <b>mouvement littéraire</b>.</li>
       </ul>
       <p>Organiser les arguments et les examples dans un plan détaillé.</p>
 
       <h3>Remarque</h3>
-      <p>Lors de l'élaboration du plan détaillé, ne pas confondre <b>arguments</b> (idées générales) et <b>exemples</b> (cas particuliers d'un ou plusieurs textes, références précises).</p>
+      <p>Lors de l&apos;élaboration du plan détaillé, ne pas confondre <b>arguments</b> (idées générales) et <b>exemples</b> (cas particuliers d&apos;un ou plusieurs textes, références précises).</p>
       <Link href={`/${pathname[1]}/${pathname[2]}`}>Retour</Link>
     </>
   )
